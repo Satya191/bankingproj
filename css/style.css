@@ -1,0 +1,84 @@
+#top_block {
+    position: fixed;
+    top:50%;
+    left:50%;
+    background-color: black;
+}
+
+#topbanner {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top:0%;
+    left: 0%;
+    height: 14%;
+    width: 100%;
+    box-sizing: content-box;
+    background-color:rgb(11, 146, 218);
+}
+#web_name {
+    font-size: 30px;
+    position: fixed;
+    top: 1.1%;
+    left: 10%;
+}
+#wrapper {
+    position: fixed;
+    top: 3%;
+    left: 55%;
+
+}
+#ul_layer {
+    line-height: 400%;
+}
+#ul_layer li{
+    font-size: 40px;
+    display: inline;
+    padding: 10px;
+}
+
+#home_text {
+    position: fixed;
+    top:40%;
+    left:20%;
+    font-size: 30px;
+}
+#signup-form {
+    position: fixed;
+    top:30%;
+    left:35%;
+}
+#signup-form h2 {
+    position: relative;
+    left: 30%;
+    font-size: 40px;
+}
+#signup-form form{
+    
+    display: flex;
+    flex-direction: column;
+}
+#signup-form input {
+    display: inline-block;
+    width:350px;
+    height: 60px;
+    padding:12px 20px;
+    margin:8px 0;
+    border-radius:4px;
+    box-sizing:border-box;
+    font-size: 20px;
+}
+
+#signup-form button{
+    position: relative;
+    left: 30%;
+    width: 150px;
+    height:60px;
+    font-size: 30px;
+}
+
+#bankacc_info {
+    position: fixed;
+    left:35%;
+    top:30%;
+}
